@@ -176,16 +176,18 @@ a.jms-link{
 	width: 30px;
 	cursor: pointer;
 	z-index: 2000;
-	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+	
 	border-radius: 3px;
 }
 .jms-arrows span.jms-arrows-prev{
-	background: #fff url(../images/arrow_left.png) no-repeat 50% 50%;
-	left: -10px;
+	background: url(https://trocasteam.github.io/public/slider/images/anterior.png) no-repeat 50% 50%;
+	left: -35px;
+        box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.1);
 }
 .jms-arrows span.jms-arrows-next{
-	background: #fff url(../images/arrow_right.png) no-repeat 50% 50%;
-	right: -10px;
+	background: url(https://trocasteam.github.io/public/slider/images/proximo.png) no-repeat 50% 50%;
+	right: -37px;
+        box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.1);
 }
 /* Not supported style */
 .jms-wrapper.not-supported{
