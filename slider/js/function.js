@@ -1,4 +1,3 @@
-<script type="text/javascript">
 			$(function() {
 				
 				var jmpressOpts	= {
@@ -12,4 +11,3 @@
 				}));
 				
 			});
-		</script>
