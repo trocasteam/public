@@ -181,13 +181,13 @@ a1.jms-link{
 }
 .jms-arrows span.jms-arrows-prev{
 	background: url(https://trocasteam.github.io/public/slider/images/anterior.png) no-repeat 50% 50%;
-	background-size: 23px 36px;
+	background-size: 16px 36px;
 	left: -35px;
         box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.1);
 }
 .jms-arrows span.jms-arrows-next{
 	background: url(https://trocasteam.github.io/public/slider/images/proximo.png) no-repeat 50% 50%;
-	background-size: 23px 36px;
+	background-size: 16px 36px;
 	right: -37px;
         box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.1);
 }
