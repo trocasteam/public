@@ -156,7 +156,7 @@ ul.sub-menu > li:last-child > a {
 }
 
 ul.sub-menu > li > a.parent {
-	background-image: url(https://andremalveira.github.io/trocasteam/menu-dropdown/arrow.png);
+	background-image: url(https://trocasteam.github.io/public/menu-dropdown/arrow.png);
 	background-size: 5px 9px;
 	background-repeat: no-repeat;
 	background-position: 95% center;
@@ -305,7 +305,7 @@ color: #222;
 -o-transition: all 0.2s ease-in-out;
 transition: all 0.2s ease-in-out; 
 text-transform: uppercase;
-background: #7f7f7f url(https://andremalveira.github.io/trocasteam/menu-dropdown/search.png) no-repeat center center;
+background: #7f7f7f url(https://trocasteam.github.io/public/menu-dropdown/search.png) no-repeat center center;
 background-size: 28px 28px;
 border-radius: 0 3px 3px 0;
 float: left;
