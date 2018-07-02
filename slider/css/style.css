@@ -110,7 +110,7 @@ a.jms-link{
 	-o-transition: all 0.4s ease-in-out 1s;
 	transition: all 0.4s ease-in-out 1s;
 }
-a:hover, a:active {
+a.jms-link:hover, a.jms-link:active {
 
 color: #d3d3d3;
 text-decoration: none;
