@@ -25,8 +25,8 @@
 	transition: background-color 1s linear;
 }
 .color-1 {
+	background: url(https://trocasteam.github.io/public/slider/images/slide-imagem-2.jpg);
 	background-color: #E3D8FF;
-	background-color: rgba(227, 216, 268, 1);
 }
 .color-2 {
 	background-color: #EBBBBC;
