@@ -117,7 +117,7 @@ text-decoration: none;
 }
 .step:not(.active) a.jms-link{
 	opacity: 0;
-	margin-top: 80px;
+	margin-top: 0px;
 }
 .step img{
 	position: absolute;
