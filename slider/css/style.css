@@ -113,7 +113,7 @@ a.jms-link{
 a.jms-link:hover{
 
 color: #d3d3d3;
-text-decoration: none;
+text-decoration: underline;
 }
 .step:not(.active) a.jms-link{
 	opacity: 0;
