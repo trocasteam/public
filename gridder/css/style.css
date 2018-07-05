@@ -11,7 +11,7 @@ and open the template in the editor.
 .gridder {
     margin: 0px;
     padding: 0px;
-    width: 1010px;
+    width: 1000px;
     list-style-type: none;
     font-size: 0;
     margin-left: auto;
@@ -24,16 +24,16 @@ and open the template in the editor.
      vertical-align: top; 
      cursor: pointer; 
      position: relative;
-     width: 247px; 
-     margin-bottom: 0.5%; 
-     margin-right: 0.5%; 
+     width: 242px; 
+     margin: 0.3%;
+     
 }
 
 .gridder .gridder-list .image { 
     background-color: #313131; 
     background-size: cover; 
     background-position: center; 
-    width: 247px; 
+    width: 242px; 
     height: 150px; 
     position: relative; 
 
