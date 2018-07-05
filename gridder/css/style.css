@@ -38,6 +38,16 @@ and open the template in the editor.
     position: relative; 
 
 }
+
+.gridder .image:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
 .gridder .overlay { position: absolute; left: 10%; top: 10%; color: #FFF; line-height: 130%; text-align: left; }
 .gridder .overlay .title { font-weight: 800; font-size: 16px; color: #FFF; }
 .gridder .overlay .description { font-weight: 300; font-size: 14px; color: #FFF; }
