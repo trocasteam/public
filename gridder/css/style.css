@@ -11,7 +11,7 @@ and open the template in the editor.
 .gridder {
     margin: 0px;
     padding: 0px;
-    width: 1200px;
+    width: 1010px;
     list-style-type: none;
     font-size: 0;
     margin-left: auto;
@@ -19,8 +19,25 @@ and open the template in the editor.
     text-align: center;
 }
 
-.gridder .gridder-list { display: inline-block; vertical-align: top; cursor: pointer; position: relative; width: 350px; margin-bottom: 0.5%; margin-right: 0.5%; }
-.gridder .gridder-list .image { background-color: #313131; background-size: cover; background-position: center; width: 350px; height: 250px; position: relative; }
+.gridder .gridder-list {
+     display: inline-block; 
+     vertical-align: top; 
+     cursor: pointer; 
+     position: relative;
+     width: 247px; 
+     margin-bottom: 0.5%; 
+     margin-right: 0.5%; 
+}
+
+.gridder .gridder-list .image { 
+    background-color: #313131; 
+    background-size: cover; 
+    background-position: center; 
+    width: 247px; 
+    height: 150px; 
+    position: relative; 
+
+}
 .gridder .overlay { position: absolute; left: 10%; top: 10%; color: #FFF; line-height: 130%; text-align: left; }
 .gridder .overlay .title { font-weight: 800; font-size: 16px; color: #FFF; }
 .gridder .overlay .description { font-weight: 300; font-size: 14px; color: #FFF; }
