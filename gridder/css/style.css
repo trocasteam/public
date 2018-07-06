@@ -121,7 +121,7 @@ and open the template in the editor.
      background: url(https://trocasteam.github.io/public/gridder/image/anterior.png) center no-repeat; 
      background-size: 25px 70px;
      transition:all 0.3s ease;
-     opacity: 0.6; 
+     opacity: 0.4; 
 }
 
 .gridder-navigation .gridder-nav.next { 
@@ -131,7 +131,7 @@ and open the template in the editor.
     background: url(https://trocasteam.github.io/public/gridder/image/anterior.png) center no-repeat; 
     background-size: 25px 70px;
     transition:all 0.3s ease;
-    opacity: 0.6; 
+    opacity: 0.4; 
 }
 
 .gridder-navigation .gridder-nav:hover { 
