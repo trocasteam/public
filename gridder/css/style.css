@@ -39,14 +39,10 @@ and open the template in the editor.
     height: 150px; 
     position: relative; 
     transition:all 0.3s ease;
-    
-
 }
-
-
 .gridder .image:hover {
-    opacity:0.9;
-  }
+    opacity:0.7;
+}
 
 .gridder .overlay { position: absolute; left: 10%; top: 10%; color: #FFF; line-height: 130%; text-align: left; }
 .gridder .overlay .title { font-weight: 800; font-size: 16px; color: #FFF; }
