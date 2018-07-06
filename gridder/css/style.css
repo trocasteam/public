@@ -121,13 +121,13 @@ html{
     padding-right: 15px;
     padding-left: 15px;
 }
-h2 {
+h5 {
     font-size: 21px;
 }
-.h3, h3 {
+.h6, h6 {
     font-size: 1.75rem;
 }
-.h2, h2 {
+.h5, h5 {
     font-size: 2rem;
 }
 h1, h2, h3, h4, h5, h6 {
