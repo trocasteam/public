@@ -200,6 +200,11 @@ html{
     padding-right: 15px;
     padding-left: 15px;
 }
+h4 {
+    font-size: 10px;
+    margin-top: 0px;
+    text-align: left;      
+}
 h5 {
     font-size: 21px;
 }
@@ -246,7 +251,7 @@ p {
 
 /*  Inicio Botões  */
 
-a.gemas{
+p.gemas{
 	color: #fff;
 	text-transform: uppercase;
 	background: #302f2f; /* Old browsers */
