@@ -39,8 +39,15 @@ and open the template in the editor.
     height: 150px; 
     position: relative; 
     transition:all 0.3s ease;
-    
-
+}
+.gridder .gridder-list .image2 { 
+    background-color: #313131; 
+    background-size: cover; 
+    background-position: center; 
+    width: 164px; 
+    height: 192px; 
+    position: relative; 
+    transition:all 0.3s ease;
 }
 
 
