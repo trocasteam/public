@@ -39,10 +39,14 @@ and open the template in the editor.
     height: 150px; 
     position: relative; 
     transition:all 0.3s ease;
+    
+
 }
+
+
 .gridder .image:hover {
-    opacity:0.7;
-}
+    opacity:0.9;
+  }
 
 .gridder .overlay { position: absolute; left: 10%; top: 10%; color: #FFF; line-height: 130%; text-align: left; }
 .gridder .overlay .title { font-weight: 800; font-size: 16px; color: #FFF; }
@@ -117,7 +121,7 @@ and open the template in the editor.
      background: url(https://trocasteam.github.io/public/gridder/image/anterior.png) center no-repeat; 
      background-size: 25px 70px;
      transition:all 0.3s ease;
-     opacity: 0.4; 
+     opacity: 0.6; 
 }
 
 .gridder-navigation .gridder-nav.next { 
@@ -127,7 +131,7 @@ and open the template in the editor.
     background: url(https://trocasteam.github.io/public/gridder/image/anterior.png) center no-repeat; 
     background-size: 25px 70px;
     transition:all 0.3s ease;
-    opacity: 0.4; 
+    opacity: 0.6; 
 }
 
 .gridder-navigation .gridder-nav:hover { 
@@ -152,12 +156,6 @@ and open the template in the editor.
 .gridder-navigation .gridder-close:hover { 
     opacity: 0.8;
 }
-
-
-
-
-
-
 
 /*  Inicio Gridder-Show  */
 
@@ -205,20 +203,25 @@ h4 {
     margin-top: 0px;
     text-align: left;      
 }
+
 h5 {
     font-size: 21px;
 }
+
 .h6, h6 {
-    font-size: 1.75rem;
+    font-size: 20px;
 }
+
 .h5, h5 {
     font-size: 2rem;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     color: #000;
     font-weight: normal;
 }
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
     font-family: inherit;
@@ -226,7 +229,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     color: inherit;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1, h2, h3, h5, h6 {
     margin-top: 0;
     margin-bottom: .5rem;
 }
@@ -242,27 +246,29 @@ hr {
     height: 0;
     overflow: visible;
 }
-p {
+p.descrição {
     margin-top: 0;
     margin-bottom: 1rem;
+    font-size: 15px;
 }
 
 /*  FIM Gridder-Show  */
 
+
 /*  Inicio Botões  */
 
-h7.gemas{
+p.gemas{
 	color: #fff;
 	text-transform: uppercase;
-	background: #302f2f; /* Old browsers */
+	background: #ffffff30; /* Old browsers */
 	padding: 8px 15px;
 	display: inline-block;
 	font-size: 16px;
-	color: #75b5ff;
+	color: #4ae770;
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 	border: 0px solid #187d2e;
 	border-radius: 4px;
-	margin-top: 40px;
+	margin-top: 10px;
 	clear: both;
 }
 
@@ -284,7 +290,7 @@ a.trade{
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 	border: 0px solid #187d2e;
 	border-radius: 4px;
-	margin-top: 40px;
+	margin-top: 10px;
     margin-left: 30px;
 	clear: both;
 }
