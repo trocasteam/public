@@ -1,0 +1,295 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  Created on : 12/01/2016, 9:19:16 AM Author     : Oriongu
+*/
+.jumbotron, body { background: #222; color: #ccc; }
+.jumbotron h2, body h2 { margin-top: 30px; }
+
+.gridder {
+    margin: 0px;
+    padding: 0px;
+    width: 1000px;
+    list-style-type: none;
+    font-size: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.gridder .gridder-list {
+     display: inline-block; 
+     vertical-align: top; 
+     cursor: pointer; 
+     position: relative;
+     width: 242px; 
+     margin: 0.3%;
+     
+}
+
+.gridder .gridder-list .image { 
+    background-color: #313131; 
+    background-size: cover; 
+    background-position: center; 
+    width: 242px; 
+    height: 150px; 
+    position: relative; 
+    transition:all 0.3s ease;
+    
+
+}
+
+
+.gridder .image:hover {
+    opacity:0.9;
+  }
+
+.gridder .overlay { position: absolute; left: 10%; top: 10%; color: #FFF; line-height: 130%; text-align: left; }
+.gridder .overlay .title { font-weight: 800; font-size: 16px; color: #FFF; }
+.gridder .overlay .description { font-weight: 300; font-size: 14px; color: #FFF; }
+.gridder .gridder-list, .gridder .gridder-show { font-size: 12px; }
+.gridder .selectedItem:after { content: ' '; display: block; border-bottom: 10px solid #222; border-left: 10px solid transparent; border-right: 10px solid transparent; height: 0%; position: absolute; top: 101%; width: 0; left: 43%; margin-bottom: -4px; }
+.gridder.hasSelectedItem .gridder-list:not(.selectedItem) { opacity: .2; }
+
+.gridder-show { 
+    padding: 4%; 
+    background: #222; 
+    position: relative; 
+    display: block; 
+    float: left; 
+    width: 100%; 
+    margin-bottom: 0.5%; 
+    text-align: left; 
+    color: #CCC; 
+}
+.gridder-show img { 
+    width: 100%; 
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.gridder-content { 
+    display: none; 
+}
+
+.gridder-navigation .gridder-nav {
+    height: 77px; 
+    padding: 0; 
+    position: absolute; 
+    width: 32px; 
+    z-index: 1; 
+    background-color: #454545; 
+    background-image: linear-gradient(top, #3e3e3e, #333); 
+    color: #aaa !important; 
+    cursor: pointer !important; 
+    display: inline-block; 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#303030',EndColorStr='#262626'); 
+    font-size: 11px; 
+    font-weight: bold;
+    margin: 0 6px; 
+    outline: 0; 
+    text-align: center; 
+    text-decoration: none !important; 
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5); 
+    -webkit-user-select: none; 
+    user-select: none; 
+    vertical-align: middle; 
+    white-space: normal; 
+    word-wrap: normal; 
+    top: 50%; 
+    margin-top: -40px;
+    overflow: hidden;
+}
+
+.gridder-navigation .gridder-nav span { 
+    display: block; 
+    bottom: 0; 
+    height: 23px; 
+    left: 0; 
+    margin: auto; 
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    width: 14px; 
+}
+
+.gridder-navigation .gridder-nav.prev {
+     left: -6px; 
+     background: url(https://trocasteam.github.io/public/gridder/image/anterior.png) center no-repeat; 
+     background-size: 25px 70px;
+     transition:all 0.3s ease;
+     opacity: 0.6; 
+}
+
+.gridder-navigation .gridder-nav.next { 
+    right: -6px; 
+    -webkit-transform: scaleX(-1); 
+    transform: scaleX(-1); 
+    background: url(https://trocasteam.github.io/public/gridder/image/anterior.png) center no-repeat; 
+    background-size: 25px 70px;
+    transition:all 0.3s ease;
+    opacity: 0.6; 
+}
+
+.gridder-navigation .gridder-nav:hover { 
+    opacity: 1; 
+}
+    
+.gridder-navigation .gridder-close { 
+    background: url(https://trocasteam.github.io/public/gridder/image/fechar.png) no-repeat center center; 
+    background-size: 20px 20px;
+    cursor: pointer; 
+    height: 20px; 
+    padding: 7px; 
+    position: absolute; 
+    right: 10px; 
+    top: 10px; 
+    width: 20px; 
+    z-index: 2; 
+    transition:all 0.3s ease;
+    opacity: 0.4;
+}
+    
+.gridder-navigation .gridder-close:hover { 
+    opacity: 0.8;
+}
+
+/*  Inicio Gridder-Show  */
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #373a3c;
+    background-color: #fff;
+}
+html{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box}*,
+::after,::before{
+    -webkit-box-sizing:inherit;
+    box-sizing:inherit
+}
+.offset-sm-1 {
+    margin-left: 1%;
+}
+.col-sm-4 {
+    float: left;
+    width: 40%;
+}
+.col-sm-7 {
+    float: left;
+    width: 58.333333%;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-sm-4, .col-sm-7 {
+
+    padding-right: 15px;
+    padding-left: 15px;
+}
+h4 {
+    font-size: 10px;
+    margin-top: 0px;
+    text-align: left;      
+}
+
+h5 {
+    font-size: 21px;
+}
+
+.h6, h6 {
+    font-size: 20px;
+}
+
+.h5, h5 {
+    font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-weight: normal;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h1, h2, h3, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+p.descrição {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+/*  FIM Gridder-Show  */
+
+
+/*  Inicio Botões  */
+
+p.gemas{
+	color: #fff;
+	text-transform: uppercase;
+	background: #ffffff30; /* Old browsers */
+	padding: 8px 15px;
+	display: inline-block;
+	font-size: 16px;
+	color: #4ae770;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	border: 0px solid #187d2e;
+	border-radius: 4px;
+	margin-top: 10px;
+	clear: both;
+}
+
+a.trade{
+    text-decoration: none;
+	text-transform: uppercase;
+	background: #48d266; /* Old browsers */
+	/*background: -moz-linear-gradient(top, #969696 0%, #727272 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#48d266), color-stop(100%,#187d2e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #48d266 0%,#187d2e 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, #969696 0%,#727272 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top, #969696 0%,#727272 100%); /* IE10+ */
+	/*background: linear-gradient(top, #969696 0%,#727272 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#969696', endColorstr='#727272',GradientType=0 ); /* IE6-9 */
+	padding: 8px 15px;
+	display: inline-block;
+	font-size: 16px;
+	color: #e3e9e4;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	border: 0px solid #187d2e;
+	border-radius: 4px;
+	margin-top: 10px;
+    margin-left: 10px;
+	clear: both;
+}
+/*  Fim Botões  */
