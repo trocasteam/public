@@ -99,7 +99,7 @@ a.jms-link{
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-	border: 1px solid #444;
+	border: 0px solid #444;
 	border-radius: 4px;
 	opacity: 1;
 	margin-top: 40px;
@@ -111,11 +111,11 @@ a.jms-link{
 	transition: all 0.4s ease-in-out 1s;
 }
 a.jms-link:hover{
-color: #ffffff00;
+color: #fff;
 text-decoration: none;
 }
 .step:not(.active) a.jms-link{
-	opacity: 0;
+	opacity: 1;
 	
 }
 .step img{
