@@ -110,12 +110,8 @@ a.jms-link{
 	-o-transition: all 0.4s ease-in-out 1s;
 	transition: all 0.4s ease-in-out 1s;
 }
-a.jms-link:hover{
-color: #fff;
-text-decoration: none;
-}
 .step:not(.active) a.jms-link{
-	opacity: 1;
+	opacity: 0;
 	
 }
 .step img{
