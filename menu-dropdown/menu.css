@@ -111,7 +111,7 @@ ol, ul {
 
 ul.sub-menu { /* level 2 */
 	display: none;
-	left: 10px;
+	left: 0px;
 	top: 20px; 
     box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.8);
 	padding-top: 0px;
