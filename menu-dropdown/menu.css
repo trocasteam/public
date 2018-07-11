@@ -101,7 +101,7 @@ ol, ul {
 
 #main-menu > li:hover > a,
 #main-menu > li.current-menu-item > a {
-	color: #fff;
+	color: #fff00;
 }
 
 /* HEADER > MENU > DROPDOWN */
