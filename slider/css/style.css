@@ -30,9 +30,9 @@
 	background-color: #E3D8FF;
 }
 .color-2 {
-	background-color: #EBBBBC;
+	background: url(https://trocasteam.github.io/public/slider/images/image2.jpg);
 	background-size: 1000px 350px;
-	background-color: rgba(235, 187, 188, 1);
+	background-color: #EBBBBC;
 }
 .color-3 {
 	background-color: #EED9C0;
