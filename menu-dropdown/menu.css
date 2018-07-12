@@ -160,7 +160,7 @@ ul.sub-menu > li:last-child > a {
 }
 
 ul.sub-menu > li > a.parent {
-	background-image: url(https://andremalveira.github.io/trocasteam/menu-dropdown/arrow.png);
+	background-image: url(https://trocasteam.github.io/public/menu-dropdown/arrow.png);
 	background-size: 5px 9px;
 	background-repeat: no-repeat;
 	background-position: 95% center;
