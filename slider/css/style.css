@@ -35,19 +35,20 @@
 	background-color: #EBBBBC;
 }
 .color-3 {
-	background-color: #EED9C0;
+	
+	background: url(https://trocasteam.github.io/public/slider/images/image3.jpg);
 	background-size: 1000px 350px;
-	background-color: rgba(238, 217, 192, 1);
+	background-color: #EED9C0;
 }
 .color-4 {
-	background-color: #DFEBB1;
+	
 	background-size: 1000px 350px;
-	background-color: rgba(223, 235, 177, 1);
+	background-color: #DFEBB1;
 }
 .color-5{
-	background-color: #C1E6E5;
+	
 	background-size: 1000px 350px;
-	background-color: rgba(193, 230, 229, 1);
+	background-color: #C1E6E5;
 }
 .step {	
 	width: 900px;
