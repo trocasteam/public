@@ -24,30 +24,35 @@
 	-ms-transition: background-color 1s linear;
 	transition: background-color 1s linear;
 }
+.color-0 {
+	background: url(https://trocasteam.github.io/public/slider/images/image0.jpg);
+	background-size: 1000px 350px;
+	background-color: #1F1F1F;
+}
 .color-1 {
 	background: url(https://trocasteam.github.io/public/slider/images/image1.jpg);
 	background-size: 1000px 350px;
-	background-color: #E3D8FF;
+	background-color: #1F1F1F;
 }
 .color-2 {
 	background: url(https://trocasteam.github.io/public/slider/images/image2.jpg);
 	background-size: 1000px 350px;
-	background-color: #EBBBBC;
+	background-color: #1F1F1F;
 }
 .color-3 {
 	background: url(https://trocasteam.github.io/public/slider/images/image3.jpg);
 	background-size: 1000px 350px;
-	background-color: #EED9C0;
+	background-color: #1F1F1F;
 }
 .color-4 {
 	background: url(https://trocasteam.github.io/public/slider/images/image4.jpg);
 	background-size: 1000px 350px;
-	background-color: #DFEBB1;
+	background-color: #1F1F1F;
 }
 .color-5{
 	background: url(https://trocasteam.github.io/public/slider/images/image5.jpg);
 	background-size: 1000px 350px;
-	background-color: #C1E6E5;
+	background-color: #1F1F1F;
 }
 .step {	
 	width: 900px;
