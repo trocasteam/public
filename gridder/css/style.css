@@ -78,6 +78,10 @@ and open the template in the editor.
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2); 
 }
 
+img.card {
+    width: 300px;
+    
+}
 .gridder-content { 
     display: none; 
 }
@@ -191,6 +195,11 @@ html{
     float: left;
     width: 58.333333%;
 }
+.col-sm-8 {
+    float: left;
+    width: 58.333333%;
+    text-align: center;
+}
 .row {
     margin-right: -15px;
     margin-left: -15px;
@@ -200,7 +209,7 @@ html{
     display: table;
     clear: both;
 }
-.col-sm-4, .col-sm-7 {
+.col-sm-4, .col-sm-7 .col-sm-8 {
 
     padding-right: 15px;
     padding-left: 15px;
