@@ -48,6 +48,15 @@ and open the template in the editor.
     position: relative; 
     transition:all 0.3s ease;
 }
+.gridder .gridder-list .image3 { 
+    background-color: #313131; 
+    background-size: cover; 
+    background-position: center; 
+    width: 244px; 
+    height: 140px; 
+    position: relative; 
+    transition:all 0.3s ease;
+}
 
 
 .gridder .image:hover {
