@@ -68,19 +68,19 @@ h1 {
     font-size: 1.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     color: #ffffff;
     font-weight: 200;
     line-height: 1.5;
     margin: 0 0 1em 0;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,  {
     color: inherit;
     text-decoration: none;
 }
 
-h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+h1 br, h2 br{
     display: none;
 }
 
