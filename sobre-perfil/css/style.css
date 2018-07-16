@@ -20,7 +20,7 @@ body, input, select, textarea {
     font-size: 12pt;
 }
 
-#wrapper {
+#estrutura {
     max-width: 68em;
     width: 100%;
     margin: 0 auto;
@@ -96,40 +96,5 @@ a {
     -ms-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
     transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
