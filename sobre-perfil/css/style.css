@@ -56,15 +56,11 @@ body, input, select, textarea {
     width: 10em;
 }
 
-#descrição h1 {
-    color: rgba(255, 255, 255, 0.65);
-    text-align: left;
-}
-
 h1.font {
     font-size: 1.5em;
     color: #0000008a;
     font-weight: bold;
+    text-align: left;
     font-family:  "Courier New", monospace; "Source Sans 
 }
 h2.font2 {
