@@ -114,7 +114,11 @@ a.prop {
     text-indent:4em     
     text-align: left;    
     }
-    
+
+.gridder {
+    text-align: left;    
+    }
+
 .gridder .gridder-list {
      display: inline-block; 
      vertical-align: top; 
