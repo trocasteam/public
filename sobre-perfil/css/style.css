@@ -63,7 +63,11 @@ body, input, select, textarea {
 
 h1.font {
     font-size: 1.5em;
-    font-family:  "Courier New", monospace;
+    color: #0000008a;
+    font-weight: bold;
+    text-align: left;
+    font-family:  "Courier New", monospace; "Source Sans 
+    margin-bottom: 20px;
 }
 
 h1, h2, h3 {
@@ -99,8 +103,8 @@ a.prop {
 
 .recuo { 
 
-    text-indent:4em 
-    
+    text-indent:4em     
+    text-align: left;    
     }
     
 .gridder .gridder-list {
