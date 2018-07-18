@@ -93,7 +93,7 @@ h1 br, h2 br{
 }
 
 strong, b {
-    color: #ffffff;
+    color: #16869c;
     font-weight: 200;
 }
 
@@ -140,29 +140,6 @@ a.prop {
     width: auto; 
 
     
-}
-
-.gridder .gridder-list .image { 
-    background-color: #313131; 
-    background-size: cover; 
-    background-position: center; 
-    width: auto; 
-    height: 150px; 
-    position: relative; 
-    transition:all 0.3s ease;
-    
-
-}
-.gridder .gridder-list .image2 { 
-    background-color: #313131; 
-    background-size: cover; 
-    background-position: center; 
-    width: 164px; 
-    height: 192px; 
-    position: relative; 
-    transition:all 0.3s ease;
-    
-
 }
 
 .gridder .image:hover {
