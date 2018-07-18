@@ -65,19 +65,13 @@ h1.font {
     font-family:  "Courier New", monospace; "Source Sans 
 }
 h1.font2 {
-    font-size: 1.8em;
-    color: #0000008a;
-    font-weight: bold;
-    text-align: left;
-    font-family:  "Courier New", monospace; "Source Sans 
-}
-h2.font2 {
     font-size: 1.5em;
     color: #0000008a;
     font-weight: bold;
     text-align: left;
     font-family:  "Courier New", monospace; "Source Sans 
 }
+
 a.prop {
     color: #0000008a;
     text-decoration: none;
