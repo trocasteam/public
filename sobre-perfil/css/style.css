@@ -1,6 +1,5 @@
 body {
     background-color: #000;
-    background-image: url(../../images/bg.jpg);
     background-size: cover;
     background-position: top center;
 }
@@ -8,14 +7,11 @@ body {
 body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.65);
 		
-
 Pro", Helvetica, sans-serif
 		font-size: 13pt;
 		font-weight: 200;
 		line-height: 1.65;
 }
-
-		
 
 body, input, select, textarea {
 
@@ -86,7 +82,7 @@ h1 br, h2 br{
 }
 
 strong, b {
-    color: #ffffff;
+    color: #16869c;
     font-weight: 200;
 }
 
