@@ -97,6 +97,6 @@ strong, b {
 
 a.prop {
     color: #0000008a;
-    text-decoration: none;
+    text-decoration: underline;
     
 }
