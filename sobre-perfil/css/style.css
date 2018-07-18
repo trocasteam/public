@@ -58,6 +58,7 @@ h1.font {
     color: #0000008a;
     font-weight: bold;
     text-align: left;
+    margin-bottom: 20px;
     font-family:  "Courier New", monospace; "Source Sans 
 }
 h1.font2 {
@@ -316,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
     color: inherit;
 }
 
-h1, h2, h3, h5, h6 {
+h3, h5, h6 {
     margin-top: 0;
     margin-bottom: .5rem;
 }
