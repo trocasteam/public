@@ -92,9 +92,9 @@ strong, b {
 }
 
 a.prop {
-    color: inherit;
+    color: #0000008a;
+    text-decoration: underline;
     font-size: 1.5em;
-    text-decoration: none;
     font-family:  "Courier New", monospace;
 }
 
