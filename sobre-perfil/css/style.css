@@ -63,13 +63,19 @@ body, input, select, textarea {
 
 h1.font {
     font-size: 1.5em;
+    color: #0000008a;
+    font-weight: bold;
     font-family:  "Courier New", monospace; "Source Sans 
 }
 h2.font2 {
     font-size: 1.5em;
-    color: #e1e1e1;
+    color: #0000008a;
+    font-weight: bold;	
     font-family:  "Courier New", monospace; "Source Sans 
+    text-align: left;
 }
+
+.recuo { text-indent:4em }
 
 h1, h2, h3 {
     color: #ffffff;
