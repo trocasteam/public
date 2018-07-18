@@ -31,15 +31,11 @@ body, input, select, textarea {
     transition: opacity 1s ease, filter 1s ease;
 }
 
-#descrição {
-    padding: 2em 0 1em 0;
-    margin: 0;
-}
 
 #descrição {
     text-align: center;
     padding: 2em 0 1em 0;
-    
+    margin: 0;    
 }
 
 #descrição .avatar {
@@ -116,7 +112,11 @@ a.prop {
     text-align: left;    
     }
 
-h1.gridder {
+#gridder {
+    text-align: left;    
+    }
+
+.gridder {
     text-align: left;    
     }
 
