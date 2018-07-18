@@ -33,6 +33,7 @@ body, input, select, textarea {
 #descrição {
     padding: 2em 0 1em 0;
     margin: 0;
+    text-align: center;
 }
 
 #descrição .avatar {
@@ -42,14 +43,14 @@ body, input, select, textarea {
     padding: 0.5em;
     border: solid 1px rgba(255, 255, 255, 0.25);
     background-color: rgba(255, 255, 255, 0.075);
-    text-align: center;
+
 }
 
 #descrição .avatar img {
     border-radius: 100%;
     display: block;
     width: 10em;
-    text-align: center;
+
 }
 
 h1.font {
@@ -67,7 +68,10 @@ h2.font2 {
     text-align: left;
 }
 
-.recuo { text-indent:4em }
+.recuo { 
+    text-indent:4em 
+    text-align: left;
+}
 
 h1, h2, h3 {
     color: #ffffff;
