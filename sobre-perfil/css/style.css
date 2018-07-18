@@ -1,16 +1,18 @@
 body {
+    background-color: #000;
+    background-image: url(../../images/bg.jpg);
     background-size: cover;
     background-position: top center;
 }
 
 body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.65);
-		
-Pro", Helvetica, sans-serif
 		font-size: 13pt;
 		font-weight: 200;
 		line-height: 1.65;
 }
+
+		
 
 body, input, select, textarea {
 
@@ -23,7 +25,7 @@ body, input, select, textarea {
     margin: 0 auto;
     padding: 0 2em;
     opacity: 1;
-    filter: none;
+    background-color: #00000047;
     -moz-transition: opacity 1s ease, -moz-filter 1s ease;
     -webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
     -ms-transition: opacity 1s ease, -ms-filter 1s ease;
@@ -33,7 +35,12 @@ body, input, select, textarea {
 #descrição {
     padding: 2em 0 1em 0;
     margin: 0;
+}
+
+#descrição {
     text-align: center;
+    padding: 2em 0 1em 0;
+    
 }
 
 #descrição .avatar {
@@ -43,35 +50,21 @@ body, input, select, textarea {
     padding: 0.5em;
     border: solid 1px rgba(255, 255, 255, 0.25);
     background-color: rgba(255, 255, 255, 0.075);
-
 }
 
 #descrição .avatar img {
     border-radius: 100%;
     display: block;
     width: 10em;
+}
 
+#descrição h1 {
+    color: rgba(255, 255, 255, 0.65);
 }
 
 h1.font {
     font-size: 1.5em;
-    color: #0000008a;
-    font-weight: bold;
-    text-align: left;
-    font-family:  "Courier New", monospace; "Source Sans 
-    margin-bottom: 20px;
-}
-h2.font2 {
-    font-size: 1.5em;
-    color: #0000008a;
-    font-weight: bold;	
-    font-family:  "Courier New", monospace; "Source Sans 
-    text-align: left;
-}
-
-.recuo { 
-    text-indent:4em 
-    text-align: left;
+    font-family:  "Courier New", monospace;
 }
 
 h1, h2, h3 {
@@ -91,14 +84,191 @@ h1 br, h2 br{
 }
 
 strong, b {
-    color: #16869c;
+    color: #ffffff;
     font-weight: 200;
 }
 
 a.prop {
-    color: #0000008a;
-    text-decoration: underline;
+    color: inherit;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family:  "Courier New", monospace;
+}
+
+/*  INICIO  Gridder-Show  */
+
+
+.recuo { 
+
+    text-indent:4em 
     
+    }
+    
+.gridder {
+    margin: 0px;
+    padding: 0px;
+    width: 1000px;
+    list-style-type: none;
+    font-size: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.gridder .gridder-list {
+     display: inline-block; 
+     vertical-align: top; 
+     cursor: pointer; 
+     position: relative;
+     width: auto; 
+     margin: 0.3%;
+     
+}
+
+.gridder .gridder-list2 {
+    display: inline-block; 
+    vertical-align: top; 
+    position: relative;
+    width: auto; 
+    margin: 0.3%;
+    
+}
+
+.gridder .gridder-list .image { 
+    background-color: #313131; 
+    background-size: cover; 
+    background-position: center; 
+    width: auto; 
+    height: 150px; 
+    position: relative; 
+    transition:all 0.3s ease;
+    
+
+}
+.gridder .gridder-list .image2 { 
+    background-color: #313131; 
+    background-size: cover; 
+    background-position: center; 
+    width: 164px; 
+    height: 192px; 
+    position: relative; 
+    transition:all 0.3s ease;
+    
+
+}
+
+.gridder .image:hover {
+    opacity:0.9;
+  }
+
+.gridder .overlay { position: absolute; left: 10%; top: 10%; color: #FFF; line-height: 130%; text-align: left; }
+.gridder .overlay .title { font-weight: 800; font-size: 16px; color: #FFF; }
+.gridder .overlay .description { font-weight: 300; font-size: 14px; color: #FFF; }
+
+.gridder .gridder-list, .gridder-list2, .gridder .gridder-show { font-size: 12px; }
+
+.gridder .selectedItem:after { content: ' '; display: block; border-bottom: 10px solid #222; border-left: 10px solid transparent; border-right: 10px solid transparent; height: 0%; position: absolute; top: 101%; width: 0; left: 43%; margin-bottom: -4px; }
+.gridder.hasSelectedItem .gridder-list:not(.selectedItem) { opacity: .2; }
+
+.gridder-show { 
+    padding: 4%; 
+    background: #222; 
+    position: relative; 
+    display: block; 
+    float: left; 
+    width: 100%; 
+    margin-bottom: 0.5%; 
+    text-align: left; 
+    color: #CCC; 
+}
+.gridder-show img { 
+    width: 100%; 
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2); 
+}
+.gridder-content { 
+    display: none; 
+}
+
+.gridder-navigation .gridder-nav {
+    height: 77px; 
+    padding: 0; 
+    position: absolute; 
+    width: 32px; 
+    z-index: 1; 
+    background-color: #454545; 
+    background-image: linear-gradient(top, #3e3e3e, #333); 
+    color: #aaa !important; 
+    cursor: pointer !important; 
+    display: inline-block; 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#303030',EndColorStr='#262626'); 
+    font-size: 11px; 
+    font-weight: bold;
+    margin: 0 6px; 
+    outline: 0; 
+    text-align: center; 
+    text-decoration: none !important; 
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5); 
+    -webkit-user-select: none; 
+    user-select: none; 
+    vertical-align: middle; 
+    white-space: normal; 
+    word-wrap: normal; 
+    top: 50%; 
+    margin-top: -40px;
+    overflow: hidden;
+}
+
+.gridder-navigation .gridder-nav span { 
+    display: block; 
+    bottom: 0; 
+    height: 23px; 
+    left: 0; 
+    margin: auto; 
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    width: 14px; 
+}
+
+.gridder-navigation .gridder-nav.prev {
+     left: -6px; 
+     background: url(https://trocasteam.github.io/public/gridder/image/anterior.png) center no-repeat; 
+     background-size: 25px 70px;
+     transition:all 0.3s ease;
+     opacity: 0.6; 
+}
+
+.gridder-navigation .gridder-nav.next { 
+    right: -6px; 
+    -webkit-transform: scaleX(-1); 
+    transform: scaleX(-1); 
+    background: url(https://trocasteam.github.io/public/gridder/image/anterior.png) center no-repeat; 
+    background-size: 25px 70px;
+    transition:all 0.3s ease;
+    opacity: 0.6; 
+}
+
+.gridder-navigation .gridder-nav:hover { 
+    opacity: 1; 
+}
+    
+.gridder-navigation .gridder-close { 
+    background: url(https://trocasteam.github.io/public/gridder/image/fechar.png) no-repeat center center; 
+    background-size: 20px 20px;
+    cursor: pointer; 
+    height: 20px; 
+    padding: 7px; 
+    position: absolute; 
+    right: 10px; 
+    top: 10px; 
+    width: 20px; 
+    z-index: 2; 
+    transition:all 0.3s ease;
+    opacity: 0.4;
+}
+    
+.gridder-navigation .gridder-close:hover { 
+    opacity: 0.8;
 }
 
 /*  Inicio Gridder-Show  */
