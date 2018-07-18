@@ -103,17 +103,6 @@ a.prop {
     
     }
     
-.gridder {
-    margin: 0px;
-    padding: 0px;
-    width: 1000px;
-    list-style-type: none;
-    font-size: 0;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
-
 .gridder .gridder-list {
      display: inline-block; 
      vertical-align: top; 
