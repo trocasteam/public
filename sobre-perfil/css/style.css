@@ -59,6 +59,7 @@ h1.font {
     font-weight: bold;
     text-align: left;
     font-family:  "Courier New", monospace; "Source Sans 
+    margin-bottom: 20px;
 }
 h2.font2 {
     font-size: 1.5em;
