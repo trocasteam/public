@@ -86,8 +86,8 @@ strong, b {
     font-weight: 200;
 }
 
-a {
-    color: inherit;
+a.prop {
+    color: #171a21;
     text-decoration: none;
     
 }
