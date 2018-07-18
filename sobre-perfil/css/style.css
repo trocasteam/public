@@ -114,10 +114,12 @@ a.prop {
 
 #gridder {
     text-align: left;    
+    margin-bottom: 10px;	
     }
 
 .gridder {
     text-align: left;    
+    margin-bottom: 10px;	
     }
 
 .gridder .gridder-list {
