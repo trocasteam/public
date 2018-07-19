@@ -67,7 +67,9 @@ and open the template in the editor.
 .gridder .overlay .title { font-weight: 800; font-size: 16px; color: #FFF; }
 .gridder .overlay .description { font-weight: 300; font-size: 14px; color: #FFF; }
 .gridder .gridder-list, .gridder .gridder-show { font-size: 12px; }
-.gridder .selectedItem:after { content: ' '; display: block; border-bottom: 10px solid #222; border-left: 10px solid transparent; border-right: 10px solid transparent; height: 0%; position: absolute; top: 101%; width: 0; left: 43%; margin-bottom: -4px; }
+.gridder .selectedItem:after { content: ' '; display: block; border-bottom: 10px solid #222; border-left: 10px solid transparent; border-right: 10px solid transparent; 
+
+height: 0%; position: absolute; top: 101%; width: 0; left: 43%; margin-bottom: -4px; }
 .gridder.hasSelectedItem .gridder-list:not(.selectedItem) { opacity: .2; }
 
 .gridder-show { 
@@ -90,13 +92,14 @@ and open the template in the editor.
 img.card {
     width: 224px;
     height: 261px;
+    margin-top: 15px;
+    
 }
 img.card2 {
     width: 100px;
     height: 120px;
     margin: 3px;
 }
-
 .gridder-content { 
     display: none; 
 }
@@ -235,7 +238,7 @@ html{
     display: table;
     clear: both;
 }
-.col-sm-4, .col-sm-7 .col-sm-8 .col-sm-9 {
+.col-sm-4, .col-sm-7 .col-sm-8 .col-sm-9{
 
     padding-right: 15px;
     padding-left: 15px;
