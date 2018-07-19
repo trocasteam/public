@@ -221,11 +221,11 @@ html{
 }
 .col-sm-4 {
     float: left;
-    width: 40%;
+    width: 355px;
 }
 .col-sm-7 {
     float: left;
-    width: 58.333333%;
+    width: 50.333333%;
     text-align: center;
 }
 .row {
