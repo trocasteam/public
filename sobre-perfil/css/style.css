@@ -168,34 +168,7 @@ strong, b {
     display: none; 
 }
 
-.gridder-navigation .gridder-nav {
-    height: 77px; 
-    padding: 0; 
-    position: absolute; 
-    width: 32px; 
-    z-index: 1; 
-    background-color: #454545; 
-    background-image: linear-gradient(top, #3e3e3e, #333); 
-    color: #aaa !important; 
-    cursor: pointer !important; 
-    display: inline-block; 
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#303030',EndColorStr='#262626'); 
-    font-size: 11px; 
-    font-weight: bold;
-    margin: 0 6px; 
-    outline: 0; 
-    text-align: center; 
-    text-decoration: none !important; 
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5); 
-    -webkit-user-select: none; 
-    user-select: none; 
-    vertical-align: middle; 
-    white-space: normal; 
-    word-wrap: normal; 
-    top: 50%; 
-    margin-top: -40px;
-    overflow: hidden;
-}
+
 
 .gridder-navigation .gridder-nav span { 
     display: block; 
@@ -209,23 +182,7 @@ strong, b {
     width: 14px; 
 }
 
-.gridder-navigation .gridder-nav.prev {
-     left: -6px; 
-     background: url(https://trocasteam.github.io/public/gridder/image/anterior.png) center no-repeat; 
-     background-size: 25px 70px;
-     transition:all 0.3s ease;
-     opacity: 0.6; 
-}
 
-.gridder-navigation .gridder-nav.next { 
-    right: -6px; 
-    -webkit-transform: scaleX(-1); 
-    transform: scaleX(-1); 
-    background: url(https://trocasteam.github.io/public/gridder/image/anterior.png) center no-repeat; 
-    background-size: 25px 70px;
-    transition:all 0.3s ease;
-    opacity: 0.6; 
-}
 
 .gridder-navigation .gridder-nav:hover { 
     opacity: 1; 
