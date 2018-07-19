@@ -76,6 +76,12 @@ a.prop {
     text-decoration: none;
     font-family:  "Courier New", monospace;
 }
+a.prop:hover, a.prop:active {
+border: none;
+outline: none;
+color: #0000008a;
+text-decoration: none;
+}
 
 h1, h2, h3 {
     color: #ffffff;
