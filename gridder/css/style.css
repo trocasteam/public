@@ -222,8 +222,8 @@ html{
     margin-top: 10px;
 }
 .row {
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 .row2 {
     margin-right: -10px;
