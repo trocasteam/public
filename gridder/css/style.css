@@ -67,9 +67,7 @@ and open the template in the editor.
 .gridder .overlay .title { font-weight: 800; font-size: 16px; color: #FFF; }
 .gridder .overlay .description { font-weight: 300; font-size: 14px; color: #FFF; }
 .gridder .gridder-list, .gridder .gridder-show { font-size: 12px; }
-.gridder .selectedItem:after { content: ' '; display: block; border-bottom: 10px solid #222; border-left: 10px solid transparent; border-right: 10px solid transparent; 
-
-height: 0%; position: absolute; top: 101%; width: 0; left: 43%; margin-bottom: -4px; }
+.gridder .selectedItem:after { content: ' '; display: block; border-bottom: 10px solid #222; border-left: 10px solid transparent; border-right: 10px solid transparent; height: 0%; position: absolute; top: 101%; width: 0; left: 43%; margin-bottom: -4px; }
 .gridder.hasSelectedItem .gridder-list:not(.selectedItem) { opacity: .2; }
 
 .gridder-show { 
@@ -243,10 +241,11 @@ html{
     padding-right: 15px;
     padding-left: 15px;
 }
-h4 {
+h4.avis {
     font-size: 10px;
-    margin-top: 0px;
-    text-align: left;      
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 0px;     
 }
 
 h5 {
@@ -280,8 +279,8 @@ h1, h2, h3, h5, h6 {
     margin-bottom: .5rem;
 }
 hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: 0;
     border-top: 1px solid rgba(0,0,0,.1);
 }
@@ -337,6 +336,14 @@ a.trade{
 	border-radius: 4px;
 	margin-top: 10px;
     margin-left: 10px;
+	clear: both;
+}
+a.contato{
+    text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	color: #2d6fae;
+    margin-top: 0px;
 	clear: both;
 }
 /*  Fim Botões  */
