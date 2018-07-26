@@ -57,7 +57,16 @@ and open the template in the editor.
     position: relative; 
     transition:all 0.3s ease;
 }
-
+.gridder .gridder-list .image4 { 
+    background-color: #31313100;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 168px; 
+    height: 192px; 
+    position: relative; 
+    transition:all 0.3s ease;
+}
 
 .gridder .image:hover {
     opacity:0.9;
@@ -242,7 +251,7 @@ html{
     padding-left: 15px;
 }
 h4.avis {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 10px;
     text-align: left;
     margin-bottom: 0px;     
@@ -295,6 +304,23 @@ p.descrição {
     margin-bottom: 1rem;
     font-size: 15px;
 }
+p.comparação {
+    margin-top: 0;
+    color: #cccccc;
+    margin-bottom: 1px;
+    font-size: 12px;
+    font-weight: 500;
+}
+strong {
+    text-decoration: line-through;
+    margin-top: 0;
+    color: #67C1F5;
+    margin-bottom: 1rem;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
 
 /*  FIM Gridder-Show  */
 
@@ -302,16 +328,25 @@ p.descrição {
 /*  Inicio Botões  */
 
 p.gemas{
-	color: #fff;
-	text-transform: uppercase;
+    text-transform: uppercase;
 	background: #ffffff30; /* Old browsers */
 	padding: 8px 15px;
 	display: inline-block;
 	font-size: 16px;
 	color: #4ae770;
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-	border: 0px solid #187d2e;
 	border-radius: 4px;
+	margin-top: 10px;
+	clear: both;
+}
+p.gemas2{
+	background: #0E141C;
+    padding: 8px 15px;
+    display: inline-block;
+    font-size: 16px;
+    color: #67C1F5;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
 	margin-top: 10px;
 	clear: both;
 }
@@ -326,7 +361,6 @@ a.trade{
 	/*background: -o-linear-gradient(top, #969696 0%,#727272 100%); /* Opera 11.10+ */
 	/*background: -ms-linear-gradient(top, #969696 0%,#727272 100%); /* IE10+ */
 	/*background: linear-gradient(top, #969696 0%,#727272 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#969696', endColorstr='#727272',GradientType=0 ); /* IE6-9 */
 	padding: 8px 15px;
 	display: inline-block;
 	font-size: 16px;
@@ -336,6 +370,20 @@ a.trade{
 	border-radius: 4px;
 	margin-top: 10px;
     margin-left: 10px;
+	clear: both;
+}
+a.trade2{
+    text-decoration: none;
+	text-transform: uppercase;
+	background: #0E141C; 
+	padding: 8px 15px;
+	display: inline-block;
+	font-size: 16px;
+	color: #67C1F5;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+	margin-top: 10px;
+    margin-left: 5px;
 	clear: both;
 }
 a.contato{
