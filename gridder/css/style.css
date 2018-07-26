@@ -386,6 +386,11 @@ a.trade2{
     margin-left: 5px;
 	clear: both;
 }
+a.trade2:hover{
+    color: #ece8e8;
+    transition:all 0.3s ease;
+    
+}
 a.contato{
     text-decoration: none;
 	display: inline-block;
