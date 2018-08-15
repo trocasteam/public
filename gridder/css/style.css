@@ -384,10 +384,29 @@ a.contato{
 }
 /*  Fim Botões  */
 
-.badge_card_set_text {
+/*  Quantidade itens */
+.quant_cartas {
     font-size: 18px;
     color: #646464;
     margin-top: 250px;
     padding: 0 400px;
     position: absolute;
 }
+.quant_fundos {
+    font-size: 18px;
+    color: #646464;
+    margin-top: 285px;
+    margin-left: 485px;
+    padding: 2px 15px;
+    border-radius: 4px;
+    background: #222222;
+    position: absolute;
+}
+.quant_emoticons {
+    font-size: 18px;
+    color: #646464;
+    margin-top: 250px;
+    padding: 0 400px;
+    position: absolute;
+}
+/*  Fim Quantidade itens  */
