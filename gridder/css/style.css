@@ -374,3 +374,15 @@ a.contato{
 	clear: both;
 }
 /*  Fim Botões  */
+
+/* Quantidade de itens */
+
+.badge_card_set_text {
+    font-size: 18px;
+    color: #646464;
+    margin-top: 250px;
+    padding: 0 400px;
+    position: absolute;
+}
+
+/* Fim Quantidade de itens */
