@@ -5,7 +5,7 @@ and open the template in the editor.
 */
 /*  Created on : 12/01/2016, 9:19:16 AM Author     : Oriongu */
 
-/*  Customizado : 07/2018 por AndréM. */
+/*  Customizado : 08/2018 por AndréM. */
 
 .jumbotron, body { background: #222; color: #ccc; }
 .jumbotron h2, body h2 { margin-top: 30px; }
@@ -64,6 +64,17 @@ and open the template in the editor.
     background-position: center; 
     width: 168px; 
     height: 192px; 
+    position: relative; 
+    transition:all 0.3s ease;
+}
+.gridder .gridder-list .image5 { 
+    background-color: #2C2C2C;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center; 
+    width: 96px; 
+    height: 96px; 
+    border: 1px solid #3a3a3a;
     position: relative; 
     transition:all 0.3s ease;
 }
@@ -256,22 +267,19 @@ h4.avis {
     text-align: left;
     margin-bottom: 0px;     
 }
-
-h5 {
-    font-size: 21px;
-}
-
 .h6, h6 {
-    font-size: 20px;
+    font-size: 18px;
+    color: #b1b1b1;
 }
 
 .h5, h5 {
     font-size: 2rem;
+    color: #dedede;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
-    color: #000;
+
     font-weight: normal;
 }
 
@@ -280,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
-    color: inherit;
+
 }
 
 h1, h2, h3, h5, h6 {
@@ -302,7 +310,8 @@ hr {
 p.descrição {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 15px;
+    font-size: 13px;
+    color: #6e6e6eb3;
 }
 p.comparação {
     margin-top: 0;
@@ -375,8 +384,6 @@ a.contato{
 }
 /*  Fim Botões  */
 
-/* Quantidade de itens */
-
 .badge_card_set_text {
     font-size: 18px;
     color: #646464;
@@ -384,5 +391,3 @@ a.contato{
     padding: 0 400px;
     position: absolute;
 }
-
-/* Fim Quantidade de itens */
