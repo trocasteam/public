@@ -72,6 +72,7 @@ p {
   text-align: center;
   padding-bottom: 5px;
   color:#939393;
+  transition: .40s;
 }
 #copyright {
   color: #8e8e8e;
