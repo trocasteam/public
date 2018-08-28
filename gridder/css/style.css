@@ -84,6 +84,23 @@ padding: 0;
     transition:all 0.3s ease;
 }
 
+.col-sm-7:hover::after {
+    opacity: 1;
+    transition: .90s;
+  }
+  .col-sm-7::after {
+    background: url(https://trocasteam.github.io/public/gridder/image/vizualizar-como.png) no-repeat;
+    background-size: cover;
+    content: '';
+    display: block;
+    height: 325px;
+    left: 20px;
+    position: absolute;
+    top: 40px;
+    opacity: 0;
+    width: 524px
+  }
+
 .gridder .image:hover {
     opacity:0.5;
   }
