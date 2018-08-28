@@ -86,9 +86,10 @@ padding: 0;
 
 .col-sm-7:hover::after {
     opacity: 1;
-    transition: .90s;
+    transition: .99s;
   }
   .col-sm-7::after {
+    transition: .99s;
     background: url(https://trocasteam.github.io/public/gridder/image/vizualizar-como.png) no-repeat;
     background-size: cover;
     content: '';
