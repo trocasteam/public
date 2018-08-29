@@ -47,8 +47,8 @@ padding: 0;
     background-color: #313131; 
     background-size: cover; 
     background-position: center; 
-    width: 160px; 
-    height: 192px; 
+    width: 118px; 
+    height: 138px; 
     position: relative; 
     transition:all 0.3s ease;
 }
@@ -66,8 +66,8 @@ padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    width: 168px; 
-    height: 192px; 
+    width: 123px; 
+    height: 140px; 
     position: relative; 
     transition:all 0.3s ease;
 }
