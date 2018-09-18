@@ -431,7 +431,7 @@ a.contato{
     font-size: 18px;
     color: #646464;
     margin-top: 250px;
-    padding: 0 400px;
+    margin-left: 400px;
     position: absolute;
 }
 .quant_fundos {
