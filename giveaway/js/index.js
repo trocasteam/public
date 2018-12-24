@@ -1,4 +1,4 @@
-var chars = ["4JFG6-BFM6Q-53WK6", "ZJH57-XT998-FZDX2", "GY5D8-IGMBI-IECE5", "8CKZ0-BVJVB-Y8E0F"];
+var chars = ["Chaves indisponíveis, volte novamente amanhã!"];
 
 var button = document.querySelector("#generateKey");
 var keyDisplay = document.querySelector("#key");
