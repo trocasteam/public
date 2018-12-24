@@ -1,4 +1,4 @@
-var chars = ["Chaves indisponíveis, volte novamente amanhã!"];
+var chars = ["Indisponível", "Indisponível", "Indisponível", "Indisponível", "Indisponível", "Indisponível",];
 
 var button = document.querySelector("#generateKey");
 var keyDisplay = document.querySelector("#key");
